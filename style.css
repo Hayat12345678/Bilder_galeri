@@ -1,7 +1,7 @@
 body {font-family: "Raleway", Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
-    background-color:rgb(243, 229, 248) ;
+    background-image: linear-gradient(90deg, #babfe2, hsl(180, 66%, 94%), blue);
     display: flex;
     flex-wrap: wrap;
 }
