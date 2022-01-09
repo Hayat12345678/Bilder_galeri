@@ -1,0 +1,56 @@
+body {font-family: "Raleway", Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(243, 229, 248) ;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {margin-bottom: -8px;
+}
+#max{
+    max-width: 1500px;  
+}
+img{
+   width:80%;
+}
+form{
+   margin:auto;width:60%;
+}
+#foto{
+   width: 350px;
+   height: 350px;
+   border-radius: 40%;
+}
+/* Mobile Ansicht */
+@media (max-width: 768px) {
+  img {width: 300px;
+ }
+ body{
+   background-color: rgb(202, 202, 247);
+} 
+}
+.Greece{
+    font-family: 'Akronim', cursive;
+   font-size: x-large;
+   height: 60px;
+   width: auto;
+   margin-top: 22px;
+  text-align: center;
+}
+#label{font-family: 'Karla', sans-serif;
+   color: rgb(112, 26, 26);
+   text-shadow: gray 4px 4px 6px;
+}
+button{
+   font-size:1.2rem;
+   width: 200px;
+   height: 40px;
+   background-color: rgb(241, 227, 213);
+   color:rgb(112, 26, 26);
+   border-radius: 30%;
+   box-shadow: rgb(61, 63, 80) 6px 6px 10px ;
+}
+
+button :hover{
+   background-color: chartreuse;
+}
